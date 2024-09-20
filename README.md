@@ -54,6 +54,18 @@ If you have any questions or need further information, feel free to contact me a
 ![events](https://github.com/user-attachments/assets/9b7406bd-0f1b-4e95-bac8-a477474fd2e6)
 ![about](https://github.com/user-attachments/assets/4fe2240d-895f-41b0-a49e-65b2e686e497)
 ![bookings](https://github.com/user-attachments/assets/d9d13f37-31aa-40e0-9dde-8e12e0c56c4d)
+![payment](https://github.com/user-attachments/assets/97cff863-f195-4332-9bb0-71318c344b66)
+![ticket](https://github.com/user-attachments/assets/57ff8c26-cd72-42fd-831b-fa33b6e44de8)
+
+**Admin Panel Screenshots**
+![admindash](https://github.com/user-attachments/assets/87f8584e-d187-417f-9576-e98f03ee9f37)
+![addeventform](https://github.com/user-attachments/assets/5526002f-c161-48e9-a131-8a102909bd69)
+![addAdmin](https://github.com/user-attachments/assets/c496a89d-cbe7-411d-b456-bf3988db2c86)
+![ManageUser](https://github.com/user-attachments/assets/a0cd9913-9114-4fff-ab7a-8effae8ea245)
+![viewBookings](https://github.com/user-attachments/assets/dcfc6d6c-ca61-465a-a796-75357f2892b9)
+![1event](https://github.com/user-attachments/assets/e2d4adcc-1584-4b40-a483-aefbc724fcdd)
+![updateEvent](https://github.com/user-attachments/assets/c54abd57-49f7-49b1-9d1c-62747e639288)
+
 
 
 
