@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import SearchBar from "./SearchBar";
 import EventList from "./EventList";
 import { useNavigate, Link } from "react-router-dom";
@@ -13,15 +13,32 @@ const UserDashboard = () => {
     const navigate = useNavigate();
     const username = localStorage.getItem("userName");
 
-	const fetchEvents = async () => {
+	// const fetchEvents = async () => {
+	// 	try {
+    //         console.log("get query is:",searchQuery);
+	// 		const response = await fetch(
+	// 			`http://localhost:5000/api/admin/search?query=${encodeURIComponent(searchQuery)}`
+	// 		);
+	// 		if (response.ok) {
+	// 			const data = await response.json();
+    //             // console.log(data);
+	// 			setEvents(data);
+	// 		} else {
+	// 			console.error("Failed to fetch events");
+	// 		}
+	// 	} catch (error) {
+	// 		console.error("Error fetching events:", error);
+	// 	}
+	// };
+
+	const fetchEvents = useCallback(async () => {
 		try {
-            console.log("get query is:",searchQuery);
+			console.log("get query is:", searchQuery);
 			const response = await fetch(
 				`http://localhost:5000/api/admin/search?query=${encodeURIComponent(searchQuery)}`
 			);
 			if (response.ok) {
 				const data = await response.json();
-                // console.log(data);
 				setEvents(data);
 			} else {
 				console.error("Failed to fetch events");
@@ -29,7 +46,7 @@ const UserDashboard = () => {
 		} catch (error) {
 			console.error("Error fetching events:", error);
 		}
-	};
+	}, [searchQuery]);
 	
     const handleLogout = () => {
         console.log("User logged out");
@@ -40,7 +57,7 @@ const UserDashboard = () => {
 
 	useEffect(() => {
 		fetchEvents();
-	}, [searchQuery]);
+	}, [fetchEvents]);
 
 	return (
 		<div>

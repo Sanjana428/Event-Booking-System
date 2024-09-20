@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import logoImage from '../assets/Eventify_logo.jpeg';
 import GoogleLoginButton from "./GoogleLoginButton";
+import DropdownMenu from "./dropDownMenu";
 
 const Register = () => {
 	const [formData, setFormData] = useState({
@@ -56,6 +57,7 @@ const Register = () => {
 
 	return (
 		<div className="form-container">
+			<DropdownMenu />
             <div className="form-logo">
             <img src={logoImage} alt="Eventify Logo" className="login-logo" />
             <p>Event Booking System</p>
