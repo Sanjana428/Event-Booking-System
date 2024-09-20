@@ -48,3 +48,14 @@ Contributions are welcome! Please fork the repository and create a pull request 
 **Contact**<br>
 If you have any questions or need further information, feel free to contact me at replysanjanasingh@gmail.com.
 
+
+**User Panel Screenshots**
+![register](https://github.com/user-attachments/assets/94067027-7582-4e70-aec1-5f5741be07fc)
+![events](https://github.com/user-attachments/assets/9b7406bd-0f1b-4e95-bac8-a477474fd2e6)
+![about](https://github.com/user-attachments/assets/4fe2240d-895f-41b0-a49e-65b2e686e497)
+![bookings](https://github.com/user-attachments/assets/d9d13f37-31aa-40e0-9dde-8e12e0c56c4d)
+
+
+
+
+
